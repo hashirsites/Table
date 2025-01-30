@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    padding:40px 400px;
+    width: 450px;
+    
+}
+img{
+    padding: 15px;
+    width: 390px;
+}
+.product-card{
+    border: 15px solid black;
+    background-color: rgb(211,211,211);
+    height: 450px;
+    border-image-source:url(border-image.png) ;
+    border-image-slice: 20;
+    border-image-repeat: round;
+}
+.product-title{
+  text-align: center;
+}
+.product-description{
+    padding: 20px;
+    margin: 2px;
+    height: 100px;
+    width: 370px;
+    overflow: auto;
+}
+.product-price{
+    padding: 20px;
+}
